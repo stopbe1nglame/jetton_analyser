@@ -48,6 +48,19 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
 # Optional npm cache directory
 .npm
 

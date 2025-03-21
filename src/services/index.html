@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Wallet Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">TON Wallet Checker</h1>
+            <p class="subtitle">Enter a TON address to check its balance and tokens.</p>
+            <div class="input-group">
+                <input type="text" id="address" placeholder="Enter TON address">
+                <button id="check">Check</button>
+            </div>
+            <div class="result-container">
+                <div class="result-header">
+                    <button id="toggle-format" class="format-button">Switch to JSON</button>
+                </div>
+                <textarea id="result" class="result" readonly></textarea>
+                <button id="copy" class="copy-button">📋</button>
+            </div>
+            <button id="download" class="download-button">Download JSON File</button>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
