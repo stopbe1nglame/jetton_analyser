@@ -27,6 +27,20 @@ Using this software you can get information in User-Friendly/JSON format, it's u
 You can either download the information in JSON file to continue your work on it, which makes requests to ton api easier or copy it to clipboard.
 
 
+## Examples
+
+### Wallet Information Example:
+⚡️ Address: EQCmMfkHNuTw-9Notz64kDYEUQ-pLaGw0CtFLBP-JDwhGFx5
+
+💸 Balance: 32.153191074 TON/ $118.74
+
+🟢 Status: active
+
+💠 Interface: wallet_v5r1
+
+⁉️ Is it wallet?: true
+
+
 ### Dev Information Example:
 Address: EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c
 
