@@ -106,7 +106,7 @@ body {
 .result-header {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 /* Format Button Styling */
@@ -129,7 +129,7 @@ body {
 /* Result Textarea Styling */
 .result {
     width: 100%;
-    height: 150px;
+    height: 300px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -140,6 +140,68 @@ body {
     resize: vertical;
     outline: none;
 }
+
+.result-container {
+    margin-top: 15px;
+    position: relative;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.result {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 8px 8px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    resize: vertical;
+    outline: none;
+}
+
+.result_dev, .result_jetton {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 8px 8px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    resize: vertical;
+    outline: none;
+}
+
+/* .copy-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.copy-button:hover {
+    opacity: 0.7;
+}
+
+.hidden {
+    display: none;
+} */
+
 
 /* Copy Button Styling */
 .copy-button {
@@ -179,4 +241,41 @@ body {
 .download-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(106, 183, 255, 0.4);
+}
+
+/* Jetton Message Styling */
+.jetton-message {
+    margin-top: 10px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.jetton-message p {
+    margin-bottom: 10px;
+    color: #a0a0a0;
+}
+
+.jetton-info-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6ab7ff, #1e90ff);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jetton-info-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(106, 183, 255, 0.4);
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
 }
